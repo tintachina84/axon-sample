@@ -1,12 +1,12 @@
 package com.tintachina.axonsample.vo;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 @AllArgsConstructor
 @RequiredArgsConstructor
-@Getter
+@Data
 public class ResultVO<T> {
 
   private boolean returnCode;
